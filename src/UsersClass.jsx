@@ -25,8 +25,7 @@ export class UsersClass extends Component {
             <h1>Users Details</h1>
             <div>
                 {this.state.users.map((users) =>
-                <div>
-                    
+                <div>                    
                     <p style={{marginLeft:"10px"}}><strong>Name:</strong> {users.name}</p>
                     <p style={{marginLeft:"10px"}}><strong>Username:</strong> {users.username}</p>
                     <p style={{marginLeft:"10px"}}><strong>Email:</strong> {users.email} </p>
