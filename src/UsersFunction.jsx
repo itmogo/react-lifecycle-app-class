@@ -19,14 +19,14 @@ const UsersFunction =() => {
 
     return (
         <div>
-            <h1>Users Details - Using Lifecycle Hooks (useEffect)</h1>
+            <h1 style={{marginLeft:"30px"}}><u>Users Details - Using Lifecycle Hooks (useEffect)</u></h1>
             <div>
                 {users.map((users) =>
                 
                     <div>
-                        <p><strong>Name:</strong> {users.name} </p>
-                        <p><strong>Username:</strong> {users.username} </p>
-                        <p><strong>Email:</strong> {users.email} </p>
+                        <p style={{marginLeft:"30px"}}><strong>Name:</strong> {users.name} </p>
+                        <p style={{marginLeft:"30px"}}><strong>Username:</strong> {users.username} </p>
+                        <p style={{marginLeft:"30px"}}><strong>Email:</strong> {users.email} </p>
 
                         <hr />
 

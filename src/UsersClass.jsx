@@ -22,13 +22,13 @@ export class UsersClass extends Component {
     render() {
         return (
             <div>
-            <h1>Users Details</h1>
+            <h1 style={{marginLeft:"30px"}}><u>Users Details</u></h1>
             <div>
                 {this.state.users.map((users) =>
                 <div>                    
-                    <p style={{marginLeft:"10px"}}><strong>Name:</strong> {users.name}</p>
-                    <p style={{marginLeft:"10px"}}><strong>Username:</strong> {users.username}</p>
-                    <p style={{marginLeft:"10px"}}><strong>Email:</strong> {users.email} </p>
+                    <p style={{marginLeft:"30px"}}><strong>Name:</strong> {users.name}</p>
+                    <p style={{marginLeft:"30px"}}><strong>Username:</strong> {users.username}</p>
+                    <p style={{marginLeft:"30px"}}><strong>Email:</strong> {users.email} </p>
                     <hr />
                 </div>                
                 )}
