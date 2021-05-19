@@ -29,7 +29,7 @@ export class UsersClass extends Component {
                     <p style={{marginLeft:"30px"}}><strong>Name:</strong> {users.name}</p>
                     <p style={{marginLeft:"30px"}}><strong>Username:</strong> {users.username}</p>
                     <p style={{marginLeft:"30px"}}><strong>Email:</strong> {users.email} </p>
-                    <hr />
+                    <hr  style={{marginLeft: '30px', marginRight: '500px'}} />
                 </div>                
                 )}
             </div>
